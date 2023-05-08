@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.thenav{
+    height:200px;
+    padding:0 !important;
+}
+
+.myheader{
+    margin:0;
+    padding:0;
+}
+
+
+.logoimage{
+    width:190px !important;
+    height:150px !important;
+    margin-right: 150px;
+}
+
+.thetopdiv{
+    background-color: white;
+    
+}
+
+.navbar-nav a{
+    font-size:21px;
+    justify-content: space-between;
+}
+
+.beginning{
+    display:flex;
+    justify-content: space-around;
+}
+
+.navlink a:hover{
+    color:purple !important;
+}
+
+.imageofme{
+    position:relative;
+    top:-50px;
+    height:500px;
+    width:500px;
+    object-fit: contain;
+}
+
+h1{
+    font-size:50px;
+    font-weight:700;
+    line-height:98px;
+}
+
+.connectbutton{
+    text-decoration: none;
+    border-radius:31px;
+    font-weight:700;
+    color:black;
+    height:10px !important;
+    padding: 0;
+    background-color: rgb(87, 3, 87);
+}
+
+.theconnectbutton{
+    background: rgb(87, 3, 87);
+    border-radius: 31px;
+    padding:0;
+    border:3px solid;
+    font-size:10px;
+    height:100px;
+}
+
+.connectbutton:hover{
+    color:rgb(87, 3, 87);
+    background-color: black;
+    transition:.1s;
+
+}
+
+.extrawordss{
+    color:rgb(87, 3, 87);
+}
+
+.extrawords{
+    font-size:30px;
+}
+
+.theconnectbutton:hover{
+    color:rgb(87, 3, 87);
+    background-color: black;
+    transition: .2s;
+}
+
+.linktags:hover{
+    color:rgb(87, 3, 87) !important;
+}
+
+.link1{
+    color:black !important;
+    background-color: rgb(87, 3, 87) !important;
+}
+
+.link1:hover{
+    opacity: 0.7;
+    color:white;
+}
+
+.link2{
+    color:black;
+    background-color: rgb(87, 3, 87);
+    
+}
+
+.link2:hover{
+    opacity:0.7;
+    background-color: rgb(87, 3, 87);
+    color:white;
+}
+
+.card-body{
+    display:flex;
+}
+
+.linkedinlink{
+    text-decoration: underline;
+    color:white !important;
+}
+
+.thalink{
+    text-decoration: none !important;
+    color:black;
+    margin-right:2px;
+    margin-bottom:3px;
+    object-fit: contain;
+    width:100px !important;
+    height:20px;
+}
+
+.thalink:hover{
+    color:blue;
+}
+.card-body{
+    justify-content: space-between;
+}
+
+
+.footerheader{
+    background: white;
+}
+
+
+/* Contact page */
+
+.bigheading{
+    font-weight:700;
+    text-decoration: underline;
+    margin-bottom:100px !important;
+}
+
+.invalidCheck{
+    margin-left:25px !important;
+}
+
+.form-label{
+    font-weight:600
+}
+
+.input-group-text{
+    margin-left:30px !important;
+}
+
+.sendbutton{
+    height:40px;
+    font-weight:400;
+    width:70px;
+    border-color:black !important;
+    color:black !important;
+    background-color: white !important;
+    border-radius:10px;
+    margin-top:5px;
+    position:relative;
+    right:-740px;
+}
+
+.sendbutton:hover{
+    color:white !important;
+    background-color: rgb(87, 3, 87) !important;
+}
+
+.yes{
+    margin-left:30px !important;
+}
+
+/* Media Queries for above pages */
+
+/* @include media-breakpoint-up(sm) {
+    .beginning h1{
+        font
+        
+    }
+ } */
+
+ @media screen and (max-width:1000px){
+    h1{
+        font-size: 13px;
+        line-height: 39px;
+    }
+
+    .extrawords{
+        font-size: 13px;
+        line-height: 39px;
+
+    }
+    .extrawordss{
+        font-size: 13px;
+        line-height: 39px;
+    }
+
+    .imageofme{
+        height:290px;
+    }
+
+    .theconnectbutton{
+        height:50px;
+    }
+
+    .myheader{
+        height:200px;
+    }
+
+    .linktags{
+        height:10px;
+        font-size:20px;
+    }
+
+    .link1{
+        height:40px;
+    }
+
+    .link2{
+        height:40px;
+    }
+
+    .thefooter{
+        height:10px !important;
+    }
+
+ }
+
+ @media screen and (max-width:300px){
+    h1{
+        font-size: 13px;
+        line-height: 19px;
+        margin-left:150px;
+    }
+
+    .extrawords{
+        font-size: 10px;
+        line-height: 19px;
+
+    }
+    .extrawordss{
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .imageofme{
+        height:200px !important;
+        width:400px !important;
+        margin-left:200px !important;
+        margin-top:50px;
+    }
+
+    .theconnectbutton{
+        height:50px;
+    }
+
+    .myheader{
+        height:200px;
+    }
+
+    .linktags{
+        height:10px;
+        font-size:20px;
+    }
+
+    .link1{
+        height:40px;
+    }
+
+    .link2{
+        height:40px;
+    }
+
+    .thefooter{
+        height:10px !important;
+    }
+
+ }
