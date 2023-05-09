@@ -13,7 +13,7 @@
 <body>
 
     <header class="myheader">
-        <nav class="container-fluid thenav">
+        <nav class="container-fluid thenav fixed-top">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid thetopdiv">
                   <a class="navbar-brand" href="#"><img src="../images/Logo.png" class="logoimage" loading="lazy"></a>
@@ -23,10 +23,10 @@
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="nav-link active" aria-current="page" href="../index.html"><span class="linktags">Home</span></a>
-                      <a class="nav-link active" href="#"><span class="linktags">About Me</span></a>
+                      <a class="nav-link active" href="./About.html"><span class="linktags">About Me</span></a>
                       <a class="nav-link active" href="#"><span class="linktags">Contact Me</span></a>
-                      <a class="nav-link active" href="#"><span class="linktags">Testimonial</span></a>
-                      <a class="nav-link active" href="#"><span class="linktags">Project</span></a>
+                      <a class="nav-link active" href="./Testimonial.html"><span class="linktags">Testimonial</span></a>
+                      <a class="nav-link active" href="./Project.html"><span class="linktags">My Projects</span></a>
                     </div>
                   </div>
                 </div>
@@ -48,14 +48,14 @@
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label yes">First name</label>
-          <input type="text" class="form-control yes" id="validationCustom01" value="John" required>
+          <input type="text" name="Name" class="form-control yes" id="validationCustom01" value="John" required>
           <div class="valid-feedback">
             Looks good!
           </div>
         </div>
         <div class="col-md-4">
           <label for="validationCustom02" class="form-label yes">Last name</label>
-          <input type="text" class="form-control yes" id="validationCustom02" value="Doe" required>
+          <input type="text" name="Surname" class="form-control yes" id="validationCustom02" value="Doe" required>
           <div class="valid-feedback">
             Looks good!
           </div>
@@ -64,7 +64,7 @@
           <label for="validationCustomUsername" class="form-label yes">E-mail</label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <input type="text" name="E-mail" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
             <div class="invalid-feedback">
               Please insert your e-mail.
             </div>
@@ -72,21 +72,21 @@
         </div>
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label yes">City</label>
-          <input type="text" class="form-control yes" id="validationCustom03" required>
+          <input type="text" name="City" class="form-control yes" id="validationCustom03" required>
           <div class="invalid-feedback">
             Please provide a valid city.
           </div>
         </div>
         <div class="col-md-3">
           <label for="validationCustom04" class="form-label yes">State</label>
-          <input type="text" class="form-control yes" id="validationCustom03" required>
+          <input type="text" name="State" class="form-control yes" id="validationCustom03" required>
           <div class="invalid-feedback">
             Please select a valid state.
           </div>
         </div>
         <div class="col-md-3">
           <label for="validationCustom05" class="form-label yes">Zip</label>
-          <input type="text" class="form-control yes" id="validationCustom05" required>
+          <input type="text" name="Zip" class="form-control yes" id="validationCustom05" required>
           <div class="invalid-feedback">
             Please provide a valid zip.
           </div>
@@ -101,7 +101,7 @@
               </div>
         </div>
         <div class="form-check yes">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <input class="form-check-input" name="Agree" type="checkbox" value="" id="invalidCheck" required>
             <label class="form-check-label" for="invalidCheck">
               Agree to terms and conditions
             </label>
@@ -126,10 +126,10 @@
         <div class="card-body">
           <h5 class="card-title linkedinlink"><a href="https://www.linkedin.com/in/eighton-lee-antonio-paulse-502b96275/" target="_blank" class="fas fa fa-brands fa-shake fa-linkedin thalink"></a></h5>
           <p class="card-text">Connect with me on LinkedIn!</p>
-          <a href="https://wa.me/+27679906093" class="fas fa fa-brands fa-shake fa-whatsapp btn btn-primary link1">Whatsapp Me</a>
-          <h5 class="card-title">Contact me:</h5>
-          <p class="card-text">+27679906093</p>
-          <a href="mailto:eightonleepaulse@gmail.com" class=" fas fa fa-brands fa-gmail btn btn-primary link2">Email me</a>
+          <a href="https://github.com/EightonLeePaulse12" class="fas fa fa-brands fa-shake fa-github btn btn-primary link1">  Github</a>
+          <h5 class="card-title">Find me on Reddit:</h5>
+          <p class="card-text fas fa fa-brands fa-solid fa-reddit">  @EightonLeePaulse</p>
+          <a href="mailto:eightonleepaulse@gmail.com" class=" fas fa fa-brands fa-envelope btn btn-primary link2"> Email me</a>
         </div>
         <div class="card-footer text-body-secondary">
           E.L.P Copyright All Rights Reserved To Eighton-Lee Paulse &copy
