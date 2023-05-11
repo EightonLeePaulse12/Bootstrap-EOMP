@@ -16,7 +16,7 @@
     <nav class="container-fluid thenav">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid thetopdiv">
-              <a class="navbar-brand" href="#"><img src="../images/Logo.png" class="logoimage" loading="lazy"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" class="logoimage" loading="lazy"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,12 +40,11 @@
     <h2 class="text-center bigheading">
         Contact me
       </h2>
-    <div class="mb-3">
-        <form
-     action="https://formspree.io/f/mlekzknb"
-    method="POST"
+    <div class="mb-3 ">
+      
     >
-    <form class="row g-3 needs-validation" novalidate>
+    <form class="row g-3 needs-validation" action="https://formspree.io/f/mlekzknb"
+    method="POST" id="form" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label yes">First name</label>
           <input type="text" name="Name" class="form-control yes" id="validationCustom01" value="John" required>
@@ -70,23 +69,23 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <label for="validationCustom03" class="form-label yes">City</label>
           <input type="text" name="City" class="form-control yes" id="validationCustom03" required>
           <div class="invalid-feedback">
             Please provide a valid city.
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <label for="validationCustom04" class="form-label yes">State</label>
           <input type="text" name="State" class="form-control yes" id="validationCustom03" required>
           <div class="invalid-feedback">
             Please select a valid state.
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <label for="validationCustom05" class="form-label yes">Zip</label>
-          <input type="text" name="Zip" class="form-control yes" id="validationCustom05" required>
+          <input type="text" name="Zip" class="form-control yes" id="validationCustom03" required>
           <div class="invalid-feedback">
             Please provide a valid zip.
           </div>
@@ -96,7 +95,7 @@
           <div class="col-md-4">
             <label for="validationCustom02" class="form-label yes"></label>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label yes">Message</label>
+                <label for="exampleFormControlTextarea1" class="form-label yes" id="messagebox">Message</label>
                 <textarea class="form-control yes" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
         </div>

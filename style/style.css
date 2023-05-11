@@ -74,22 +74,23 @@ body{
 
 .imageofme{
     position:relative;
-    top:-50px;
+    top:50px;
     height:500px;
     width:500px;
     object-fit: contain;
+
 }
 
 h1{
-    font-size:50px;
+    font-size:40px;
     font-weight:700;
-    line-height:98px;
+    line-height:85px;
 }
 
 .connectbutton{
     text-decoration: none;
     position:relative;
-    top:-50px;
+    top:-10px;
     margin-top:100px !important;
     padding:20px 20px !important;
     font-size:10px;
@@ -103,8 +104,18 @@ h1{
     background-color: white;
 }
 
+dt{
+    color:rgb(87, 3, 87);
+}
+
+dl{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .connectbutton:hover{
-    color: black !important;
+    color: white !important;
     background-color: rgb(87, 3, 87) !important;
     transition:.1s;
 
@@ -115,7 +126,7 @@ h1{
 }
 
 .extrawords{
-    font-size:30px;
+    font-size:44px;
 }
 
 .theconnectbutton:hover{
@@ -227,12 +238,37 @@ h1{
     background-color: white !important;
     border-radius:10px;
     margin-top:5px;
-    position:relative;
-    right:-50px;
+    justify-content: center !important;
 }
 
-.form{
-    
+#exampleFormControlTextarea1{
+    width:100vw;
+}
+
+#messagebox{
+    width:100vw;
+}
+
+#inputGroupPrepend{
+    border:2px solid black;
+}
+
+#form{
+    display:flex !important;
+    justify-content: center;
+    text-align: center;
+}
+
+#form input{
+    border:2px solid black;
+}
+
+#form .form-control{
+    border: 2px solid black;
+}
+
+form .col-md-4{
+    justify-content: center !important;
 }
 
 .sendbutton:hover{
@@ -341,7 +377,7 @@ h1{
     color:black;
     border:2px solid black;
     padding: 12px;
-    margin-top:8px;
+    margin-top:10px;
     margin-bottom:20px;
     border-radius:10px;
 }
@@ -350,6 +386,10 @@ h1{
     color:white;
     background-color: purple;
     border: 2.5px solid black;
+}
+
+.paragraphediting2{
+    height:100%;
 }
 
 .zebutton2{
@@ -404,7 +444,7 @@ h1{
 .thecol{
     width:100%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .animage{
@@ -433,12 +473,14 @@ h1{
     display:block;
 }
 
+
+
 .bigheadingss{
     font-weight:700;
-    width:100vw;
+    width:50vw;
     text-decoration: underline;
     display:flex;
-    justify-content: center;
+    flex-direction: column !important;
     margin-bottom:5px !important;
     color:rgb(87, 3, 87);
     display:inline-block;
@@ -450,7 +492,7 @@ h1{
     width:100%;
     margin:0;
     justify-content: center;
-    font-size:13.5px;
+    font-size:var(--bs-body-font-size);
     line-height:58px;
     overflow: hidden;
 }
@@ -626,6 +668,8 @@ h1{
 
     .haibo{
     flex-wrap: wrap;
+    flex-direction: row;
+    
     }
 
     p .paragraphediting{
@@ -819,11 +863,70 @@ h1{
     }
 }
 
+@media (max-width:462px){
+    .bruvanmy1{
+        margin: 5rem !important;
+        width:100% !important;
+    }
+
+    .align-items-center{
+        margin:0rem !important;
+        height:80rem !important;
+    }
+}
+
 @media (max-width:769px){
     .bruvanmy1{
         margin: 0 !important;
         width:100% !important;
     }
+
+    .align-items-center{
+        margin:0rem !important;
+        height:50rem;
+    }
+
+    .zebutton{
+        margin:0 !important;
+    }
+
+    
+    .projectheading{
+        
+    }
+    
+    .bruvanmy1{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy2{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy3{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy4{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy5{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy6{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .zebutton{
+        margin:0 !important;
+    }
+    .zebutton2{
+        margin:0 !important;
+    }
+
+
 }
 
 @media (max-width:706px){
@@ -890,4 +993,29 @@ h1{
     
 }
 
+@media (max-width:641px){
+
+    .front{
+        width:100% !important;
+        height:100% !important;
+    }
+
+    .back{
+        width:100% !important;
+        height:93% !important;
+        line-height:10px !important;
+    }
+
+
+    .cardpara{
+        line-height: 15px !important;
+        font-size:10px !important;
+        width:100% !important;
+        height:100% !important;
+    }
+    .insideofthecard{
+        width:100% !important;
+        height:100% !important;
+    }
+}
 
