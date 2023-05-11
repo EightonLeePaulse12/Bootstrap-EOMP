@@ -402,10 +402,20 @@ h1{
 }
 
 .thecol{
-    width:400px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
 }
 
 .animage{
+    width: 100% !important;
+    height:380px;
+    margin-bottom:45px;
+    object-fit:cover;
+    border:2px solid black;
+}
+
+.animage2{
     width: 100% !important;
     height:380px;
     margin-bottom:45px;
@@ -425,7 +435,7 @@ h1{
 
 .bigheadingss{
     font-weight:700;
-    width:850px;
+    width:100vw;
     text-decoration: underline;
     display:flex;
     justify-content: center;
@@ -439,6 +449,7 @@ h1{
 .paragraphediting{
     width:100%;
     margin:0;
+    justify-content: center;
     font-size:13.5px;
     line-height:58px;
     overflow: hidden;
@@ -452,6 +463,10 @@ h1{
     width: 100vw;
     height: 430px;
     perspective: 1000px;
+}
+
+.cardpara{
+    line-height:1.5rem !important;
 }
   
 .cardishh{
@@ -572,7 +587,10 @@ h1{
 
     .paragraphediting{
         line-height: 15px;
-        
+    }
+
+    .bigheadingss{
+        font-size:1rem;
     }
 }
 
@@ -580,6 +598,7 @@ h1{
     .bigheading{
         position:relative;
         top:100px;
+        justify-content: center;
     }
 }
 
@@ -596,20 +615,22 @@ h1{
     }
 }
 
-}
+
     
 
 @media screen and (max-width:1400px){
     .animage{
-        width:70% !important;
+        width:100% !important;
+        justify-content: center;
     }
 
     .haibo{
-        flex-wrap:nowrap;
+    flex-wrap: wrap;
     }
 
     p .paragraphediting{
         width:50%;
+        justify-content: center;
     }
 
     .thecol{
@@ -631,7 +652,7 @@ h1{
 @media (max-width:429px){
     .bigheadingss{
         width:100%;
-        font-size:100px !important;
+        font-size:50px !important;
     }
 }
 
@@ -645,3 +666,228 @@ h1{
         margin-bottom:10px;
     }
 }
+
+@media (max-width:992px){
+    .paragraphediting{
+        line-height: 2rem;
+        width:40rem;
+    }
+
+    .animage{
+        width:50vw !important;
+    }
+}
+
+@media (mmax-width:721px){
+    .cardpara{
+        line-height:15px !important;
+    }
+}
+
+@media (max-width:768px){
+    .paragraphediting{
+        position:relative;
+        left:-.5rem;
+    }
+
+    .animage{
+        position:relative;
+        left:-8rem;
+        justify-content: center;
+    }
+
+    .up{
+        position:relative;
+        right:-10rem !important;
+    }
+
+    .bigheadingss{
+        position:relative;
+        left:-.5rem !important;
+        justify-content: center;
+        font-size:1.2rem;
+    }
+
+    .cardimg{
+        width:15rem;
+        height:25rem;
+        justify-content: space-around;
+    }
+
+    .cardheading p{
+        font-size:.5rem;
+        line-height:.3rem;
+    }
+
+    .back{
+        width:15rem;
+        height:25rem;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:992px){
+    .testipara{
+        font-size:1rem !important;
+    }
+}
+
+@media (max-width:489px){
+    .testipara{
+        font-size:.8rem !important;
+    }
+}
+
+@media (max-width:382px){
+    .testipara{
+        font-size:.6rem !important;
+    }
+}
+@media (max-width:279px){
+    .testipara{
+        font-size:.5rem !important;
+    }
+}
+
+@media (max-width:1400px){
+    .projectheading{
+        top:-5rem !important;
+    }
+}
+
+@media (max-width:992px){
+    .align-items-center{
+        margin: 13rem !important;
+
+    }
+}
+
+@media (max-width:768px){
+    .projectheading{
+        top:-9rem !important;
+    }
+
+    .bruvanmy1{
+        width:100% !important;
+    }
+}
+
+@media (max-width:321px){
+    .align-items-center{
+        margin:0rem !important;
+        height:1450px;
+    }
+
+    .zebutton{
+        margin:0 !important;
+    }
+
+    
+    .projectheading{
+        
+    }
+    
+    .bruvanmy1{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy2{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy3{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy4{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy5{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .bruvanmy6{
+        margin: 0 0 !important;
+        width:100% !important;
+    }
+    .zebutton{
+        margin:0 !important;
+    }
+    .zebutton2{
+        margin:0 !important;
+    }
+}
+
+@media (max-width:769px){
+    .bruvanmy1{
+        margin: 0 !important;
+        width:100% !important;
+    }
+}
+
+@media (max-width:706px){
+    .animage{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .paragraphediting{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:769px){
+    .paragraphediting2{
+        font-size:.8rem;
+    }
+}
+
+@media (max-width:720px){
+    .cardimg{
+        width:13rem;
+        height:25rem;
+    }
+
+    .back{
+        width:13rem;
+        height:25rem;
+    }
+}
+
+@media (max-width:640px) and (min-width:429px){
+    .paragraphediting{
+        width:100vw;
+    }
+
+    .cardimg{
+        justify-content: center;
+    }
+
+    .front{
+        justify-content: center;
+        width:.1rem;
+    }
+
+    .col .paragraphediting{
+        width:100%;
+    }
+
+    .back{
+        justify-content: center;
+    }
+}
+
+@media (max-width:429px){
+    .bigheadingss{
+        font-size:2rem !important;
+    }
+
+    .paragraphediting{
+        width:100%;
+    }
+    
+}
+
+
