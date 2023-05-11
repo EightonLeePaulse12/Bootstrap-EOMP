@@ -46,6 +46,15 @@ body{
     padding:0;
 }
 
+@keyframes lettergrow{
+    0%{
+        padding:20px 20px !important;
+    }
+    100%{
+        padding:30px 30px !important;
+    }
+}
+
 
 .logoimage{
     width:190px !important;
@@ -90,6 +99,7 @@ h1{
 .connectbutton{
     text-decoration: none;
     position:relative;
+    animation: lettergrow infinite ease .5s;
     top:-10px;
     margin-top:100px !important;
     padding:20px 20px !important;
