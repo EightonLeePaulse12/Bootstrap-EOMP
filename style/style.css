@@ -25,33 +25,20 @@ body{
     padding:0 !important;
 }
 
-.Hi{
-    transition:.9s;
-    animation:goated .9s 1;
-    animation-delay: .49;
-}
 
-@keyframes goated{
-    0%{
-        font-size:10px;
-    }
-
-    100%{
-        font-size:50px;
-    }
-}
 
 .myheader{
     margin:0;
     padding:0;
 }
 
-@keyframes lettergrow{
-    0%{
-        padding:20px 20px !important;
+@keyframes growtheletters{
+    from{
+        font-size:10px !important;
+        padding:0 !important;
     }
-    100%{
-        padding:30px 30px !important;
+    to{
+        font-size:20px !important;
     }
 }
 
@@ -99,7 +86,6 @@ h1{
 .connectbutton{
     text-decoration: none;
     position:relative;
-    animation: lettergrow infinite ease .5s;
     top:-10px;
     margin-top:100px !important;
     padding:20px 20px !important;
@@ -112,6 +98,7 @@ h1{
     padding: 0;
     border: 2px solid black !important;
     background-color: white;
+    animation: growtheletters 1s infinite ease-in-out;
 }
 
 dt{
@@ -130,6 +117,7 @@ dl{
     transition:.1s;
 
 }
+
 
 .extrawordss{
     color:rgb(87, 3, 87);
@@ -515,6 +503,18 @@ form .col-md-4{
     width: 100vw;
     height: 430px;
     perspective: 1000px;
+}
+
+#exampleFormControlTextarea1{
+    width:99vw !important;
+}
+
+.thanks{
+    margin-left:0 !important;
+}
+
+#inputGroupPrepend{
+    margin-left:0 !important;
 }
 
 .cardpara{
@@ -1026,6 +1026,16 @@ form .col-md-4{
     .insideofthecard{
         width:100% !important;
         height:100% !important;
+    }
+}
+
+@media (max-width:768px){
+    .yes{
+        margin-left:0 !important;
+    }
+
+    #inputGroupPrepend{
+        margin-left:0 !important;
     }
 }
 
