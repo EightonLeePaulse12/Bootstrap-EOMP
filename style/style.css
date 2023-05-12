@@ -251,7 +251,7 @@ dl{
 }
 
 #inputGroupPrepend{
-    border:2px solid black;
+    border:1.9px solid black;
 }
 
 #form{
@@ -548,6 +548,7 @@ form .col-md-4{
 
 .thanks{
     margin-left:0 !important;
+    padding:0 !important;
 }
 
 #inputGroupPrepend{
@@ -592,6 +593,7 @@ form .col-md-4{
     width: 300px;
     height: 400px;
     backface-visibility: hidden;
+    border:3px solid black;
 }
   
 .back{
@@ -689,6 +691,7 @@ form .col-md-4{
         justify-content: space-around;
     }
 
+
     .bigheading{
         margin:0 !important;
     }
@@ -722,7 +725,6 @@ form .col-md-4{
 @media (max-width:436px){
     .bigheading{
         position:relative;
-        top:100px;
         justify-content: center;
     }
 }
